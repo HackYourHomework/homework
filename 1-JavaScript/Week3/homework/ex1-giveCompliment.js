@@ -19,7 +19,7 @@
 -----------------------------------------------------------------------------*/
 function giveCompliment(/* TODO parameter(s) go here */name) {
   // TODO complete this function
-  let compliments = ["great", "awesome", "amazing", "talented", "genus", "smart", "fantastic", "sharp", "unique", "perfect"];
+  const compliments = ["great", "awesome", "amazing", "talented", "genus", "smart", "fantastic", "sharp", "unique", "perfect"];
   return `You are ${compliments[Math.floor(Math.random() * 10)]}, ${name}!`
 }
 

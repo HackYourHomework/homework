@@ -1,12 +1,4 @@
 
-*** ESLint Report ***
-
-ex1-giveCompliment.js
-  22:7  warning  'compliments' is never reassigned. Use 'const' instead  no-autofix/prefer-const
-
-✖ 1 problem (0 errors, 1 warning)
-
-
 *** Spell Checker Report ***
 
 ex1-giveCompliment.js:33:19 - Unknown word (Obada)
