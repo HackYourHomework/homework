@@ -1,0 +1,8 @@
+2021-07-11 10:00:42 info: ----------------------------------------------
+2021-07-11 10:00:42 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-11 10:00:42 info: ----------------------------------------------
+2021-07-11 10:00:46 info: All unit tests passed.
+2021-07-11 10:00:49 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:39:17 - Unknown word (Sobhi)
+
