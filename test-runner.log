@@ -1,0 +1,17 @@
+2021-07-11 02:17:23 info: ----------------------------------------------
+2021-07-11 02:17:23 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-11 02:17:23 info: ----------------------------------------------
+2021-07-11 02:17:27 info: All unit tests passed.
+2021-07-11 02:17:30 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  22:7  warning  'compliments' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-07-11 02:17:32 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:33:19 - Unknown word (Obada)
+ex1-giveCompliment.js:33:25 - Unknown word (Elsharbatly)
+
