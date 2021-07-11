@@ -1,5 +1,0 @@
-
-*** Spell Checker Report ***
-
-ex1-giveCompliment.js:33:19 - Unknown word (Obada)
-ex1-giveCompliment.js:33:25 - Unknown word (Elsharbatly)
