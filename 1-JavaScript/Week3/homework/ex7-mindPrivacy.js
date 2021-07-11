@@ -10,6 +10,7 @@
 4. Return the new array as the return value of the function.
 5. Run the exercise and verify that it passes all the unit tests.
 ------------------------------------------------------------------------------*/
+
 const employeeRecords = [
   {
     name: 'John',
@@ -28,9 +29,29 @@ const employeeRecords = [
 ];
 
 // ! Function under test
-function filterPrivateData(/* parameter(s) go here */) {
+function filterPrivateData(/* parameter(s) go here */completeData) {
   // TODO complete this function
+  let employeeGeneralData = [...completeData];
+  let noPrivateData = [];
+    for (let i=0 ; i<employeeGeneralData.length; i++) {
+      /* //\\//\\ this is a simple solution //\\//\\
+      delete employeeGeneralData[i]["gender"];
+      delete employeeGeneralData[i]["salary"];
+      */
+     //\\//\\ Advanced solution with some possibilities //\\//\\
+      if (employeeGeneralData[i].hasOwnProperty("gender") || employeeGeneralData[i].hasOwnProperty("salary")){
+        if (employeeGeneralData[i].hasOwnProperty("gender") && employeeGeneralData[i].hasOwnProperty("salary")) {
+          delete employeeGeneralData[i]["gender"];
+          delete employeeGeneralData[i]["salary"];
+        } else if (employeeGeneralData[i].hasOwnProperty("gender")) {
+          delete employeeGeneralData[i]["gender"];
+        } else {
+          delete employeeGeneralData[i]["salary"];
+        }
+      }
+    } return employeeGeneralData;
 }
+console.log(filterPrivateData(employeeRecords));
 
 // ! Test functions (plain vanilla JavaScript)
 function test1() {
