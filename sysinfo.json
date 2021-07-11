@@ -1,0 +1,54 @@
+{
+  "node": "v16.4.0",
+  "system": {
+    "manufacturer": "HP",
+    "model": "OMEN by HP Laptop"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i7-8750H",
+    "speed": 2.2
+  },
+  "memory": "16 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Pro",
+    "release": "10.0.19042"
+  },
+  "vscodeInfo": {
+    "version": "1.58.0",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "formulahendry.code-runner",
+      "HookyQR.beautify",
+      "PKief.material-icon-theme",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "techer.open-in-browser",
+      "WallabyJs.quokka-vscode",
+      "xabikos.JavaScriptSnippets"
+    ],
+    "userSettings": {
+      "cSpell.userWords": [
+        "Elsharbatly",
+        "Obada",
+        "imgs"
+      ],
+      "wallaby.startAutomatically": false,
+      "window.zoomLevel": 3,
+      "workbench.colorTheme": "Kimbie Dark",
+      "diffEditor.ignoreTrimWhitespace": false,
+      "workbench.iconTheme": "material-icon-theme"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+2021-07-11 01:29:09 info: ----------------------------------------------
+2021-07-11 01:29:09 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-11 01:29:09 info: ----------------------------------------------
+2021-07-11 01:29:12 error: *** Unit Test Error Report ***
+
+- giveCompliment should take a single parameter
+- giveCompliment should include a `compliments` array initialized with 10 strings
+  No such array found
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+)
