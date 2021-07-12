@@ -78,3 +78,64 @@ Error: Could not resolve a module for a custom reporter.
 2021-07-12 09:28:50 error: *** Spell Checker Report ***
 
 
+2021-07-12 10:11:36 info: ----------------------------------------
+2021-07-12 10:11:36 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-07-12 10:11:36 info: ----------------------------------------
+2021-07-12 10:11:37 error: *** Unit Test Error Report ***
+
+Command failed: npx jest "C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\1-JavaScript\Week3\unit-tests\ex2-dogYears.test.js" --colors --reporters="C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\test-runner\CustomReporter.js"
+Error: Could not resolve a module for a custom reporter.
+  Module name: C:\Users\Musta\OneDrive\سطح
+    at C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\normalize.js:558:15
+    at Array.map (<anonymous>)
+    at normalizeReporters (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\normalize.js:540:33)
+    at normalize (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\normalize.js:633:5)
+    at readConfig (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\index.js:224:68)
+    at async readConfigs (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\index.js:406:26)
+    at async runCLI (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\@jest\core\build\cli\index.js:230:59)
+    at async Object.run (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest\node_modules\jest-cli\build\cli\index.js:163:37)
+)
+2021-07-12 10:11:38 error: *** Spell Checker Report ***
+
+
+2021-07-12 10:18:16 info: ------------------------------------------------
+2021-07-12 10:18:16 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2021-07-12 10:18:16 info: ------------------------------------------------
+2021-07-12 10:18:16 warn: A unit test file was not provided.
+2021-07-12 10:18:18 error: *** Spell Checker Report ***
+
+
+2021-07-12 10:18:37 info: ------------------------------------------------
+2021-07-12 10:18:37 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2021-07-12 10:18:37 info: ------------------------------------------------
+2021-07-12 10:18:37 warn: A unit test file was not provided.
+2021-07-12 10:18:39 error: *** Spell Checker Report ***
+
+
+2021-07-12 10:18:55 info: --------------------------------------------
+2021-07-12 10:18:55 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-07-12 10:18:55 info: --------------------------------------------
+2021-07-12 10:18:55 warn: A unit test file was not provided.
+2021-07-12 10:18:56 error: *** Spell Checker Report ***
+
+
+2021-07-12 10:19:13 info: -------------------------------------------
+2021-07-12 10:19:13 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-07-12 10:19:13 info: -------------------------------------------
+2021-07-12 10:19:13 error: *** Unit Test Error Report ***
+
+Command failed: npx jest "C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\1-JavaScript\Week3\unit-tests\ex3-tellFortune.test.js" --colors --reporters="C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\test-runner\CustomReporter.js"
+Error: Could not resolve a module for a custom reporter.
+  Module name: C:\Users\Musta\OneDrive\سطح
+    at C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\normalize.js:558:15
+    at Array.map (<anonymous>)
+    at normalizeReporters (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\normalize.js:540:33)
+    at normalize (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\normalize.js:633:5)
+    at readConfig (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\index.js:224:68)
+    at async readConfigs (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\index.js:406:26)
+    at async runCLI (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\@jest\core\build\cli\index.js:230:59)
+    at async Object.run (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest\node_modules\jest-cli\build\cli\index.js:163:37)
+)
+2021-07-12 10:19:15 error: *** Spell Checker Report ***
+
+
