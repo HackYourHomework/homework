@@ -1,4 +1,7 @@
 'use strict';
+
+const { add } = require('winston');
+
 /*------------------------------------------------------------------------------
 Let's do some grocery shopping! We're going to get some things to cook dinner
 with. However, you like to spend money and always buy too many things. So when 
@@ -21,8 +24,13 @@ you have more than 3 items in your shopping cart the first item gets taken out.
 const shoppingCart = ['bananas', 'milk'];
 
 // ! Function to be tested
-function addToShoppingCart(/* parameters go here */) {
+function addToShoppingCart(/* parameters go here */ item) {
   // TODO complete this function
+  const pushingItem = shoppingCart.push(item);
+  if (pushingItem > 3) {
+    shoppingCart.shift();
+  }
+  return 'You bought ' + shoppingCart.join() + '!';
 }
 
 // ! Test functions (plain vanilla JavaScript)
