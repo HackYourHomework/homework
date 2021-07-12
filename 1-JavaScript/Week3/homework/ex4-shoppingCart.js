@@ -21,10 +21,17 @@ you have more than 3 items in your shopping cart the first item gets taken out.
 const shoppingCart = ['bananas', 'milk'];
 
 // ! Function to be tested
-function addToShoppingCart(/* parameters go here */) {
+function addToShoppingCart(/* parameters go here */ item) {
+  const items = shoppingCart.push(item);
   // TODO complete this function
+  if (items > 3) {
+    shoppingCart.shift();
+  }
+  return 'You bought ' + shoppingCart.join('-') + '!';
 }
-
+console.log(addToShoppingCart('test1'));
+console.log(addToShoppingCart('test2'));
+console.log(addToShoppingCart('test3'));
 // ! Test functions (plain vanilla JavaScript)
 function test1() {
   console.log('Test 1: addShoppingCart() should take one parameter');
