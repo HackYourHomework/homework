@@ -1,0 +1,56 @@
+{
+  "node": "v14.17.1",
+  "system": {
+    "manufacturer": "Gigabyte Technology Co., Ltd.",
+    "model": "Z390 AORUS ULTRA"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i9-9900K",
+    "speed": 3.6
+  },
+  "memory": "16 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Pro",
+    "release": "10.0.18363"
+  },
+  "vscodeInfo": {
+    "version": "1.58.0",
+    "extensions": [
+      "CoenraadS.bracket-pair-colorizer",
+      "ecmel.vscode-html-css",
+      "esbenp.prettier-vscode",
+      "formulahendry.auto-rename-tag",
+      "formulahendry.code-runner",
+      "golang.go",
+      "hdg.live-html-previewer",
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-toolsai.jupyter",
+      "ms-vscode.cpptools",
+      "necinc.elmmet",
+      "oderwat.indent-rainbow",
+      "ritwickdey.live-sass",
+      "ritwickdey.LiveServer",
+      "WallabyJs.quokka-vscode"
+    ],
+    "userSettings": {
+      "editor.fontSize": 18,
+      "window.zoomLevel": 0,
+      "files.autoSave": "afterDelay",
+      "diffEditor.wordWrap": "on",
+      "editor.wordWrap": "on",
+      "debug.console.fontSize": 19,
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true,
+      "workbench.editor.enablePreview": false,
+      "prettier.singleQuote": true,
+      "editor.tabSize": 2,
+      "liveServer.settings.donotVerifyTags": true,
+      "liveServer.settings.donotShowInfoMsg": true,
+      "prettier.semi": false,
+      "html.format.extraLiners": ""
+    }
+  }
+}

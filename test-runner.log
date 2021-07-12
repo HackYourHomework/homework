@@ -1,0 +1,40 @@
+2021-07-12 08:45:53 info: ----------------------------------------------
+2021-07-12 08:45:53 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-12 08:45:53 info: ----------------------------------------------
+2021-07-12 08:45:53 error: *** Unit Test Error Report ***
+
+Command failed: npx jest "C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\1-JavaScript\Week3\unit-tests\ex1-giveCompliment.test.js" --colors --reporters="C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\test-runner\CustomReporter.js"
+Error: Could not resolve a module for a custom reporter.
+  Module name: C:\Users\Musta\OneDrive\سطح
+    at C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\normalize.js:558:15
+    at Array.map (<anonymous>)
+    at normalizeReporters (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\normalize.js:540:33)
+    at normalize (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\normalize.js:633:5)
+    at readConfig (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\index.js:224:68)
+    at async readConfigs (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\index.js:406:26)
+    at async runCLI (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\@jest\core\build\cli\index.js:230:59)
+    at async Object.run (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest\node_modules\jest-cli\build\cli\index.js:163:37)
+)
+2021-07-12 08:45:55 error: *** Spell Checker Report ***
+
+
+2021-07-12 08:46:47 info: ----------------------------------------------
+2021-07-12 08:46:47 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-12 08:46:47 info: ----------------------------------------------
+2021-07-12 08:46:48 error: *** Unit Test Error Report ***
+
+Command failed: npx jest "C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\1-JavaScript\Week3\unit-tests\ex1-giveCompliment.test.js" --colors --reporters="C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\test-runner\CustomReporter.js"
+Error: Could not resolve a module for a custom reporter.
+  Module name: C:\Users\Musta\OneDrive\سطح
+    at C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\normalize.js:558:15
+    at Array.map (<anonymous>)
+    at normalizeReporters (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\normalize.js:540:33)
+    at normalize (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\normalize.js:633:5)
+    at readConfig (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\index.js:224:68)
+    at async readConfigs (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest-config\build\index.js:406:26)
+    at async runCLI (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\@jest\core\build\cli\index.js:230:59)
+    at async Object.run (C:\Users\Musta\OneDrive\سطح المكتب\home work\Homework\node_modules\jest\node_modules\jest-cli\build\cli\index.js:163:37)
+)
+2021-07-12 08:46:49 error: *** Spell Checker Report ***
+
+
