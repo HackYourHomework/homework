@@ -22,7 +22,7 @@ const shoppingCart = ['bananas', 'milk'];
 // ! Function to be tested
 function addToShoppingCart(items) {
   shoppingCart.push(items);
-  if (shoppingCart.length > 3) {
+  while (shoppingCart.length > 3) {
     shoppingCart.shift();
   }
   const newCart = shoppingCart.join(', ');

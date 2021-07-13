@@ -81,3 +81,17 @@ In C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33
   testRegex:  - 0 matches
 Pattern: C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\1-JavaScript\Week3\unit-tests\ex2-dogYears.test.js - 0 matches
 )
+2021-07-13 01:51:34 info: ----------------------------------------
+2021-07-13 01:51:34 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-07-13 01:51:34 info: ----------------------------------------
+2021-07-13 01:51:37 error: *** Unit Test Error Report ***
+
+No tests found, exiting with code 1
+Run with `--passWithNoTests` to exit with code 0
+In C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33
+  113 files checked.
+  testMatch: **/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x) - 26 matches
+  testPathIgnorePatterns: \\node_modules\\ - 113 matches
+  testRegex:  - 0 matches
+Pattern: C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\1-JavaScript\Week3\unit-tests\ex2-dogYears.test.js - 0 matches
+)

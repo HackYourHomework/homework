@@ -30,19 +30,26 @@ function calculateTotalPrice(items) {
   for (const i in items) {
     totalAmonut += items[i];
   }
-  console.log(`'Total: € ${totalAmonut}'`);
+  return `Total: € ${totalAmonut}`;
 }
 
 function test1() {
   console.log('\nTest 1: calculateTotalPrice should take one parameter');
   // TODO replace this comment with your code
-  calculateTotalPrice(cartForParty);
+  console.assert(calculateTotalPrice.length === 1);
 }
 
 function test2() {
   console.log('\nTest 2: return correct output when passed cartForParty');
   // TODO replace this comment with your code
-  calculateTotalPrice(cartForParty);
+  const testResult = {
+    chips: 1.5,
+    chocolate: 1.5,
+    tea: 2.5,
+  };
+  const expectedResult = 'Total: € 5.5';
+  const reelResult = calculateTotalPrice(testResult);
+  console.assert(expectedResult === reelResult);
 }
 
 function test() {
