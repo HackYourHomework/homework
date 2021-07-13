@@ -16,7 +16,7 @@ In the current exercise we will rewrite the `addToShoppingCart` function to make
 function addToShoppingCart(initialCart, items) {
   const combined = [...initialCart];
   combined.push(items);
-  
+
   while (combined.length > 3) {
     combined.shift();
   }

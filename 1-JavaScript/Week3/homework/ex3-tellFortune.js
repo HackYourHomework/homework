@@ -29,27 +29,30 @@ randomly select array elements four times inside the `tellFortune` function
 body, this code is now written once only in a separated function.
 -----------------------------------------------------------------------------*/
 const numKids = [1, 2, 3, 6];
-  // TODO add elements here
+// TODO add elements here
 
+const partnerNames = ['Jane', 'Emine', 'Julia', 'Rose'];
 
-const partnerNames = ['Jane','Emine','Julia','Rose'];
+const locations = ['USA', 'UK', 'Turkey', 'Germany'];
 
-const locations = ['USA','UK','Turkey','Germany'];
-
-const jobTitles = ['Teacher','Web Developer','Tester','Designer'];
+const jobTitles = ['Teacher', 'Web Developer', 'Tester', 'Designer'];
 
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
 function selectRandomly(arr) {
-  return(arr[Math.floor(Math.random() * arr.length)]);
+  return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function tellFortune(numKids,partnerNames, locations, jobTitles) {
+function tellFortune(numKids, partnerNames, locations, jobTitles) {
   selectRandomly(numKids);
   selectRandomly(locations);
   selectRandomly(partnerNames);
-  selectRandomly(jobTitles);  
-  return `You will be a ${selectRandomly(jobTitles)} in ${selectRandomly(locations)} , married to ${selectRandomly(partnerNames)} with ${selectRandomly(numKids)} kids.`;
+  selectRandomly(jobTitles);
+  return `You will be a ${selectRandomly(jobTitles)} in ${selectRandomly(
+    locations
+  )} , married to ${selectRandomly(partnerNames)} with ${selectRandomly(
+    numKids
+  )} kids.`;
 }
 
 console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
