@@ -1,0 +1,7 @@
+*** Unit Test Error Report ***
+
+- tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a doctor in Amsterdam, married to mia with 1 kids.
+  Received: You will be a doctor in Amsterdam, 
+  married to mia with 1 kids.
+)

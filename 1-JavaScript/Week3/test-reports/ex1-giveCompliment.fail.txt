@@ -1,0 +1,6 @@
+*** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: you are great, HackYourFuture!
+)
