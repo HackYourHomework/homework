@@ -1,0 +1,11 @@
+*** Unit Test Error Report ***
+
+No tests found, exiting with code 1
+Run with `--passWithNoTests` to exit with code 0
+In C:\Users\hanyn\OneDrive\Desktop\hyf\JavaScript\Homework
+  112 files checked.
+  testMatch: **/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x) - 26 matches
+  testPathIgnorePatterns: \\node_modules\\ - 112 matches
+  testRegex:  - 0 matches
+Pattern: C:\Users\hanyn\OneDrive\Desktop\hyf\JavaScript\Homework\1-JavaScript\Week3\unit-tests\ex3-tellFortune.test.js - 0 matches
+)
