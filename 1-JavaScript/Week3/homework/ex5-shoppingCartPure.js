@@ -1,7 +1,6 @@
 'use strict';
 /*------------------------------------------------------------------------------
-In the current exercise we will rewrite the `addToShoppingCart` function to make 
-it pure. Do the following:
+In the current exercise we will rewrite the `addToShoppingCart` function to make it pure. Do the following:
 
 1. Complete the parameter list of `addToShopping()`. As a first parameter it 
    should accept a shopping cart array and as a second parameter it should 
@@ -14,8 +13,14 @@ it pure. Do the following:
 5. Confirm that you function passes the provided unit tests.
 ------------------------------------------------------------------------------*/
 // ! Function under test
-function addToShoppingCart(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+function addToShoppingCart(initialCart, items) {
+  const combined = [...initialCart];
+  combined.push(items);
+  
+  while (combined.length > 3) {
+    combined.shift();
+  }
+  return combined;
 }
 
 // ! Test functions (plain vanilla JavaScript)
