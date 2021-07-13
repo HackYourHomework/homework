@@ -14,8 +14,15 @@ calculate it!
    ages.
 -----------------------------------------------------------------------------*/
 
-function calculateDogAge(/* parameters go here */) {
+function calculateDogAge(yourAge) {
   // TODO complete this function
+  if (yourAge === 'string') {
+    return 'Please Enter a Number';
+  } else if (yourAge <= 0) {
+    return 'Please Enter a Number Bigger Than Zero(0)';
+  } else {
+    return `Your doggie is ${(yourAge *= 7)} years old in dog years!`;
+  }
 }
 
 console.log(calculateDogAge(1)); // -> "Your doggie is 7 years old in dog years!"

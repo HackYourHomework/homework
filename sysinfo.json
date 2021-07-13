@@ -1,0 +1,93 @@
+{
+  "node": "v14.17.1",
+  "system": {
+    "manufacturer": "Hewlett-Packard",
+    "model": "HP EliteBook 840 G1"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i5-4310U",
+    "speed": 2
+  },
+  "memory": "8 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Pro",
+    "release": "10.0.19042"
+  },
+  "vscodeInfo": {
+    "version": "1.58.0",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "abusaidm.html-snippets",
+      "ajhyndman.jslint",
+      "alexcvzz.vscode-sqlite",
+      "be5invis.vscode-icontheme-nomo-dark",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "bradlc.vscode-tailwindcss",
+      "CoenraadS.bracket-pair-colorizer",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.jshint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "ecmel.vscode-html-css",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "firefox-devtools.vscode-firefox-debug",
+      "formulahendry.auto-rename-tag",
+      "formulahendry.code-runner",
+      "GitHub.vscode-pull-request-github",
+      "hdg.live-html-previewer",
+      "HookyQR.beautify",
+      "medzhidov.font-awesome-codes-css",
+      "medzhidov.font-awesome-codes-html",
+      "ms-azuretools.vscode-docker",
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-toolsai.jupyter",
+      "msjsdiag.debugger-for-chrome",
+      "qinjia.seti-icons",
+      "ritwickdey.LiveServer",
+      "samuelcolvin.jinjahtml",
+      "SauravManoj.django-template-snippets",
+      "seti.seti",
+      "sidthesloth.html5-boilerplate",
+      "streetsidesoftware.code-spell-checker",
+      "techer.open-in-browser",
+      "vscode-icons-team.vscode-icons",
+      "WallabyJs.quokka-vscode",
+      "wholroyd.jinja",
+      "xabikos.JavaScriptSnippets",
+      "Zignd.html-css-class-completion"
+    ],
+    "userSettings": {
+      "editor.detectIndentation": false,
+      "editor.formatOnSave": true,
+      "editor.minimap.enabled": false,
+      "editor.renderIndentGuides": true,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "eslint.autoFixOnSave": true,
+      "files.autoSave": "onFocusChange",
+      "prettier.singleQuote": true,
+      "prettier.trailingComma": "all",
+      "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "cSpell.enableFiletypes": [
+        "html"
+      ],
+      "workbench.iconTheme": "seti",
+      "diffEditor.wordWrap": "on",
+      "editor.wordWrap": "bounded",
+      "tailwindCSS.emmetCompletions": true,
+      "workbench.colorTheme": "Visual Studio Light",
+      "window.zoomLevel": 1
+    }
+  }
+}
