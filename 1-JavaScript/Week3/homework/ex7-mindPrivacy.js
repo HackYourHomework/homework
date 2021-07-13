@@ -31,6 +31,7 @@ const employeeRecords = [
 function filterPrivateData(/* parameter(s) go here */) {
   // TODO complete this function
 }
+console.log(filterPrivateData(employeeRecords));
 
 // ! Test functions (plain vanilla JavaScript)
 function test1() {
