@@ -1,0 +1,101 @@
+2021-07-11 02:57:08 info: ----------------------------------------------
+2021-07-11 02:57:08 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-11 02:57:08 info: ----------------------------------------------
+2021-07-11 02:57:08 info: Exercise has not yet been modified
+2021-07-11 02:57:10 error: *** Unit Test Error Report ***
+
+- giveCompliment should take a single parameter
+- giveCompliment should include a `compliments` array initialized with 10 strings
+  No such array found
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+)
+2021-07-11 02:57:53 info: Disclaimer turned off
+2021-07-12 12:16:05 info: ----------------------------------------------
+2021-07-12 12:16:05 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-12 12:16:05 info: ----------------------------------------------
+2021-07-12 12:16:07 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: you are great HackYourFuture
+)
+2021-07-12 12:16:07 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  33:7  warning  'randomCompliment' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-07-12 12:16:55 info: ----------------------------------------------
+2021-07-12 12:16:55 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-12 12:16:55 info: ----------------------------------------------
+2021-07-12 12:16:57 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: you are great HackYourFuture
+)
+2021-07-12 12:18:40 info: ----------------------------------------------
+2021-07-12 12:18:40 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-12 12:18:40 info: ----------------------------------------------
+2021-07-12 12:18:42 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: you are great HackYourFuture
+)
+2021-07-12 12:21:11 info: ----------------------------------------------
+2021-07-12 12:21:11 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-12 12:21:11 info: ----------------------------------------------
+2021-07-12 12:21:12 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: you are great HackYourFuture
+)
+2021-07-12 12:21:33 info: ----------------------------------------------
+2021-07-12 12:21:33 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-12 12:21:33 info: ----------------------------------------------
+2021-07-12 12:21:35 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: you are great HackYourFuture
+)
+2021-07-12 12:24:00 info: ----------------------------------------------
+2021-07-12 12:24:00 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-12 12:24:00 info: ----------------------------------------------
+2021-07-12 12:24:01 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: you are great HackYourFuture
+)
+2021-07-12 12:51:37 info: ----------------------------------------------
+2021-07-12 12:51:37 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-12 12:51:37 info: ----------------------------------------------
+2021-07-12 12:51:39 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: you are great HackYourFuture
+)
+2021-07-13 05:47:03 info: ----------------------------------------------
+2021-07-13 05:47:03 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-13 05:47:03 info: ----------------------------------------------
+2021-07-13 05:47:04 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: you are great HackYourFuture
+)
+2021-07-13 05:50:11 info: ----------------------------------------------
+2021-07-13 05:50:11 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-13 05:50:11 info: ----------------------------------------------
+2021-07-13 05:50:12 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: you are  great HackYourFuture
+)
