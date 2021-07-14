@@ -27,7 +27,7 @@ const cartForParty = {
   meat: '5.00',
 };
 
-function calculateTotalPrice(/* TODO parameter(s) go here */ objc) {
+function calculateTotalPrice(objc) {
   // TODO replace this comment with your code
   let sum = 0;
   for (let r in objc) {
@@ -35,16 +35,18 @@ function calculateTotalPrice(/* TODO parameter(s) go here */ objc) {
   }
   return 'Total: €' + sum;
 }
-console.log(calculateTotalPrice(cartForParty));
+// console.log(calculateTotalPrice(cartForParty));
 
 function test1() {
   console.log('\nTest 1: calculateTotalPrice should take one parameter');
   // TODO replace this comment with your code
+  calculateTotalPrice(cartForParty);
 }
 
 function test2() {
   console.log('\nTest 2: return correct output when passed cartForParty');
   // TODO replace this comment with your code
+  calculateTotalPrice(cartForParty);
 }
 
 function test() {
