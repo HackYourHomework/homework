@@ -26,10 +26,12 @@ const employeeRecords = [
     salary: 60000,
   },
 ];
-
 // ! Function under test
-function filterPrivateData(/* parameter(s) go here */) {
-  // TODO complete this function
+function filterPrivateData(nonP) {
+  for (const obj of nonP) {
+    delete obj.gender + delete obj.salary;
+    console.log(obj);
+  }
 }
 
 // ! Test functions (plain vanilla JavaScript)

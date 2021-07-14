@@ -1,6 +1,6 @@
 'use strict';
 /* -----------------------------------------------------------------------------
-
+ 
 1. Complete the function named `giveCompliment`as follows:
 
    - It should take a single parameter: `name`.
@@ -17,12 +17,26 @@
    Use `console.log` each time to display the return value of the
    `giveCompliment` function to the console.
 -----------------------------------------------------------------------------*/
-function giveCompliment(/* TODO parameter(s) go here */) {
+function giveCompliment(/* TODO parameter(s) go here */ name) {
   // TODO complete this function
+  const compliments = [
+    'Good',
+    'Awesome',
+    'Great',
+    'Woww',
+    'Wonderful',
+    'Unique',
+    'Amusing',
+    'Bright',
+    'Fun',
+    'Great again',
+  ];
+  const rand = Math.floor(Math.random() * compliments.length);
+  return 'You are ' + compliments[rand] + ', ' + name + '!';
 }
 
 // TODO substitute your own name for "HackYourFuture"
-const myName = 'HackYourFuture';
+const myName = 'Mustafa';
 
 console.log(giveCompliment(myName));
 console.log(giveCompliment(myName));
