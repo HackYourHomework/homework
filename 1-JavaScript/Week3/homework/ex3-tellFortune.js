@@ -66,17 +66,17 @@ const jobTitles = [
 
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
-function selectRandomly(/* TODO parameter(s) go here */ ...arr) {
+function selectRandomly(/* TODO parameter(s) go here */ arr) {
   // TODO complete this function
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
 function tellFortune(/* add parameter(s) here */ number, name, location, job) {
   // TODO complete this function
-  number = selectRandomly(...number);
-  name = selectRandomly(...name);
-  job = selectRandomly(...job);
-  location = selectRandomly(...location);
+  number = selectRandomly(number);
+  name = selectRandomly(name);
+  job = selectRandomly(job);
+  location = selectRandomly(location);
   return (
     'You will be a ' +
     job +

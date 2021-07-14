@@ -36,7 +36,7 @@ function giveCompliment(/* TODO parameter(s) go here */ name) {
 }
 
 // TODO substitute your own name for "HackYourFuture"
-const myName = 'Sobhi';
+const myName = 'HackYourFuture';
 
 console.log(giveCompliment(myName));
 console.log(giveCompliment(myName));
