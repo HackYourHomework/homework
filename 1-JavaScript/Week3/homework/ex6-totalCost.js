@@ -12,7 +12,7 @@ instead!
 2. Complete the function called `calculateTotalPrice`.
 
    - It takes one parameter: an object that contains properties that only contain
-     number values.
+    number values.
    - Loop through the object and add all the number values together.
    - Return a string: "Total: €`amount`".
 
@@ -20,25 +20,32 @@ instead!
 -----------------------------------------------------------------------------*/
 const cartForParty = {
   // TODO complete this object
+  beers: '1.78',
+  banana: '2.00',
+  coco: '0.99',
+  water: '0.50',
+  meat: '5.00',
 };
 
-function calculateTotalPrice(/* TODO parameter(s) go here */) {
-  // TODO replace this comment with your code
-}
+function calculateTotalPrice(obj) {
+  const sumValues = obj => Obj.values(obj).reduce((a, b) => a + b);
+  const sum = sumValues(obj);
+
+return 'Total: €' + sum + '.';
 
 function test1() {
   console.log('\nTest 1: calculateTotalPrice should take one parameter');
   // TODO replace this comment with your code
+  console.log(calculateTotalPrice(cartForParty));
 }
 
 function test2() {
   console.log('\nTest 2: return correct output when passed cartForParty');
   // TODO replace this comment with your code
+  console.log(calculateTotalPrice(cartForParty));
 }
-
 function test() {
   test1();
   test2();
 }
-
 test();
