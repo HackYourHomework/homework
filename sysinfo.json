@@ -1,0 +1,53 @@
+{
+  "node": "v16.3.0",
+  "system": {
+    "manufacturer": "Micro-Star International Co., Ltd.",
+    "model": "GP65 Leopard 9SE"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i7-9750H",
+    "speed": 2.6
+  },
+  "memory": "16 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Home",
+    "release": "10.0.19043"
+  },
+  "vscodeInfo": {
+    "version": "1.58.0",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "CoenraadS.bracket-pair-colorizer",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "formulahendry.auto-rename-tag",
+      "hdg.live-html-previewer",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "WallabyJs.quokka-vscode"
+    ],
+    "userSettings": {
+      "workbench.colorTheme": "Visual Studio Dark",
+      "liveServer.settings.donotVerifyTags": true,
+      "liveServer.settings.donotShowInfoMsg": true,
+      "editor.wordWrap": "on",
+      "workbench.editor.decorations.colors": true,
+      "prettier.singleQuote": true,
+      "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "security.workspace.trust.untrustedFiles": "open",
+      "window.zoomLevel": 1,
+      "cSpell.userWords": [
+        "Sobhi"
+      ]
+    }
+  }
+}
