@@ -29,27 +29,33 @@ const employeeRecords = [
 ];
 
 // ! Function under test
-function filterPrivateData(/* parameter(s) go here */completeData) {
+function filterPrivateData(/* parameter(s) go here */ completeData) {
   // TODO complete this function
-  let employeeGeneralData = [...completeData];
-  let noPrivateData = [];
-    for (let i=0 ; i<employeeGeneralData.length; i++) {
-      /* //\\//\\ this is a simple solution //\\//\\
+  const employeeGeneralData = [...completeData];
+  for (let i = 0; i < employeeGeneralData.length; i++) {
+    /* //\\//\\ this is a simple solution //\\//\\
       delete employeeGeneralData[i]["gender"];
       delete employeeGeneralData[i]["salary"];
       */
-     //\\//\\ Advanced solution with some possibilities //\\//\\
-      if (employeeGeneralData[i].hasOwnProperty("gender") || employeeGeneralData[i].hasOwnProperty("salary")){
-        if (employeeGeneralData[i].hasOwnProperty("gender") && employeeGeneralData[i].hasOwnProperty("salary")) {
-          delete employeeGeneralData[i]["gender"];
-          delete employeeGeneralData[i]["salary"];
-        } else if (employeeGeneralData[i].hasOwnProperty("gender")) {
-          delete employeeGeneralData[i]["gender"];
-        } else {
-          delete employeeGeneralData[i]["salary"];
-        }
+    //\\//\\ Advanced solution with some possibilities //\\//\\
+    if (
+      employeeGeneralData[i].hasOwnProperty('gender') ||
+      employeeGeneralData[i].hasOwnProperty('salary')
+    ) {
+      if (
+        employeeGeneralData[i].hasOwnProperty('gender') &&
+        employeeGeneralData[i].hasOwnProperty('salary')
+      ) {
+        delete employeeGeneralData[i]['gender'];
+        delete employeeGeneralData[i]['salary'];
+      } else if (employeeGeneralData[i].hasOwnProperty('gender')) {
+        delete employeeGeneralData[i]['gender'];
+      } else {
+        delete employeeGeneralData[i]['salary'];
       }
-    } return employeeGeneralData;
+    }
+  }
+  return employeeGeneralData;
 }
 console.log(filterPrivateData(employeeRecords));
 

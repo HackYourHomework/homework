@@ -79,3 +79,8 @@ ex3-tellFortune.js
 2021-07-11 09:45:09 info: --------------------------------------------
 2021-07-11 09:45:09 warn: A unit test file was not provided.
 2021-07-11 09:45:20 info: All steps were completed successfully
+2021-07-15 08:55:01 info: -------------------------------------------
+2021-07-15 08:55:01 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-07-15 08:55:01 info: -------------------------------------------
+2021-07-15 08:55:06 info: All unit tests passed.
+2021-07-15 08:55:11 info: All steps were completed successfully
