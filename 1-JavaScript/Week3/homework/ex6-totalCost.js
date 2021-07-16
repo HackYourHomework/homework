@@ -28,20 +28,25 @@ const cartForParty = {
 
 function calculateTotalPrice(param) {
   const costs = Object.values(param);
-  const sum = costs.reduce((cost, currentValue) => {
-    return cost + currentValue;
-  }, 0);
+  const sum = costs.reduce((cost, currentValue) => cost + currentValue, 0);
   return `Total: €${sum}`;
+  /*it is possible to make it more elegant as below;
+    return ` total :€${costs.reduce((cost, currentValue) => cost + currentValue, 0)}`;
+    */
 }
 
 function test1() {
   console.log('\nTest 1: calculateTotalPrice should take one parameter');
-  calculateTotalPrice(cartForParty);
+  const expected = 1;
+  const actual = calculateTotalPrice.length;
+  console.assert(actual === expected);
 }
 
 function test2() {
   console.log('\nTest 2: return correct output when passed cartForParty');
-  calculateTotalPrice(cartForParty);
+  const expected = 'Total: €14.1';
+  const actual = calculateTotalPrice(cartForParty);
+  console.assert(actual === expected);
 }
 
 function test() {
