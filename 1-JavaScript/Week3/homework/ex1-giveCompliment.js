@@ -18,7 +18,7 @@
    `giveCompliment` function to the console.
 -----------------------------------------------------------------------------*/
 function giveCompliment(name) {
-  const complimentList = [
+  const compliments = [
     'awesome',
     'smart',
     'great',
@@ -31,8 +31,8 @@ function giveCompliment(name) {
     'cool',
   ];
   return `You are ${
-    complimentList[Math.floor(Math.random() * complimentList.length)]
-  } ${name}`;
+    compliments[Math.floor(Math.random() * compliments.length)]
+  }, ${name}!`;
 
   // TODO complete this function
   /* To check the index of complimentList Array

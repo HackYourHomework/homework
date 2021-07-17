@@ -31,11 +31,17 @@ body, this code is now written once only in a separated function.
 const numKids = [1, 2, 3, 6];
 // TODO add elements here
 
-const partnerNames = ['Jane', 'Emine', 'Julia', 'Rose'];
+const partnerNames = ['Jane', 'Emine', 'Julia', 'Rose', 'Saskia'];
 
-const locations = ['USA', 'UK', 'Turkey', 'Germany'];
+const locations = ['USA', 'UK', 'Turkey', 'Germany', 'France'];
 
-const jobTitles = ['Teacher', 'Web Developer', 'Tester', 'Designer'];
+const jobTitles = [
+  'Teacher',
+  'Web Developer',
+  'Tester',
+  'Designer',
+  'Accountant',
+];
 
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.

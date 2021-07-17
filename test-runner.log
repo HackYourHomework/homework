@@ -187,3 +187,45 @@ In C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33
   testRegex:  - 0 matches
 Pattern: C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\1-JavaScript\Week3\unit-tests\ex2-dogYears.test.js - 0 matches
 )
+2021-07-17 01:22:13 info: ----------------------------------------
+2021-07-17 01:22:13 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-07-17 01:22:13 info: ----------------------------------------
+2021-07-17 01:22:20 info: All unit tests passed.
+2021-07-17 01:22:25 info: All steps were completed successfully
+2021-07-17 01:22:41 info: ----------------------------------------------
+2021-07-17 01:22:41 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-17 01:22:41 info: ----------------------------------------------
+2021-07-17 01:22:48 error: *** Unit Test Error Report ***
+
+- giveCompliment should include a `compliments` array initialized with 10 strings
+  No such array found
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+
+2021-07-17 01:24:44 info: ----------------------------------------------
+2021-07-17 01:24:44 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-17 01:24:44 info: ----------------------------------------------
+2021-07-17 01:24:50 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are awesome, HackYourFuture!
+  Received: You are awesome HackYourFuture
+
+2021-07-17 01:26:01 info: ----------------------------------------------
+2021-07-17 01:26:01 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-17 01:26:01 info: ----------------------------------------------
+2021-07-17 01:26:07 error: *** Unit Test Error Report ***
+
+- giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are awesome, HackYourFuture!
+  Received: You are awesome,  HackYourFuture!
+
+2021-07-17 01:26:24 info: ----------------------------------------------
+2021-07-17 01:26:24 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-07-17 01:26:24 info: ----------------------------------------------
+2021-07-17 01:26:30 info: All unit tests passed.
+2021-07-17 01:26:35 info: All steps were completed successfully
+2021-07-17 01:26:55 info: ----------------------------------------
+2021-07-17 01:26:55 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-07-17 01:26:55 info: ----------------------------------------
+2021-07-17 01:27:01 info: All unit tests passed.
+2021-07-17 01:27:05 info: All steps were completed successfully

@@ -23,7 +23,10 @@ const shoppingCart = ['bananas', 'milk'];
 function addToShoppingCart(items) {
   shoppingCart.push(items);
   while (shoppingCart.length > 3) {
-    shoppingCart.shift();
+    //shoppingCart.shift();
+    shoppingCart.reverse(); //I reverse my array to keep last tree items when I delete items in my array
+    shoppingCart.splice(3); //this more efficient than shift()
+    shoppingCart.reverse(); //After I delete the item more than tree I change back to regular order
   }
   const newCart = shoppingCart.join(', ');
   return `You bought ${newCart}!`;

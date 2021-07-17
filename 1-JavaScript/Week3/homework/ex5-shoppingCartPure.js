@@ -18,7 +18,9 @@ function addToShoppingCart(initialCart, items) {
   combined.push(items);
 
   while (combined.length > 3) {
-    combined.shift();
+    combined.reverse(); //I reverse my array to keep last tree items when I delete items in my array
+    combined.splice(3); //this more efficient than shift()
+    combined.reverse(); //After I delete the item more than tree I change back to regular order
   }
   return combined;
 }
