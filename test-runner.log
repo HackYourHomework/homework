@@ -187,6 +187,7 @@ In C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33
   testRegex:  - 0 matches
 Pattern: C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\1-JavaScript\Week3\unit-tests\ex2-dogYears.test.js - 0 matches
 )
+<<<<<<< HEAD
 2021-07-17 01:22:13 info: ----------------------------------------
 2021-07-17 01:22:13 info: >>> Running Unit Test `ex2-dogYears` <<<
 2021-07-17 01:22:13 info: ----------------------------------------
@@ -229,3 +230,5 @@ Pattern: C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\1-JavaScript
 2021-07-17 01:26:55 info: ----------------------------------------
 2021-07-17 01:27:01 info: All unit tests passed.
 2021-07-17 01:27:05 info: All steps were completed successfully
+=======
+>>>>>>> 982eba8af4398964f1e93897a5b62c03cd752b6c
