@@ -17,18 +17,46 @@
    Use `console.log` each time to display the return value of the
    `giveCompliment` function to the console.
 -----------------------------------------------------------------------------*/
-function giveCompliment(/* TODO parameter(s) go here */) {
+function giveCompliment(name) {
+<<<<<<< HEAD
+  const compliments = [
+=======
+  const complimentList = [
+>>>>>>> 982eba8af4398964f1e93897a5b62c03cd752b6c
+    'awesome',
+    'smart',
+    'great',
+    'best',
+    'wonderful',
+    'grateful',
+    'helpful',
+    'courageous',
+    'polite',
+    'cool',
+  ];
+  return `You are ${
+<<<<<<< HEAD
+    compliments[Math.floor(Math.random() * compliments.length)]
+  }, ${name}!`;
+=======
+    complimentList[Math.floor(Math.random() * complimentList.length)]
+  } ${name}`;
+>>>>>>> 982eba8af4398964f1e93897a5b62c03cd752b6c
+
   // TODO complete this function
+  /* To check the index of complimentList Array
+
+  console.log(`You are ${complimentList[ Math.floor(Math.random()*complimentList.length)]} ${complimentList.indexOf(complimentList[ Math.floor(Math.random()*complimentList.length)])} ${name}`);
+  */
 }
-
 // TODO substitute your own name for "HackYourFuture"
-const myName = 'HackYourFuture';
+const myName = 'HackYouFuture';
 
 console.log(giveCompliment(myName));
 console.log(giveCompliment(myName));
 console.log(giveCompliment(myName));
 
-const yourName = 'Amsterdam';
+const yourName = 'Fikret YILMAZ';
 
 console.log(giveCompliment(yourName));
 console.log(giveCompliment(yourName));

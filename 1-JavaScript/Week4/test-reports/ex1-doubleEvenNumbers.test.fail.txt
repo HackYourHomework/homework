@@ -1,0 +1,11 @@
+*** Unit Test Error Report ***
+
+No tests found, exiting with code 1
+Run with `--passWithNoTests` to exit with code 0
+In C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33
+  113 files checked.
+  testMatch: **/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x) - 26 matches
+  testPathIgnorePatterns: \\node_modules\\ - 113 matches
+  testRegex:  - 0 matches
+Pattern: C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\1-JavaScript\Week4\homework\ex1-doubleEvenNumbers.test.js - 0 matches
+)

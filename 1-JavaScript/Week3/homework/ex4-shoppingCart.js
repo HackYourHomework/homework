@@ -1,7 +1,7 @@
 'use strict';
 /*------------------------------------------------------------------------------
 Let's do some grocery shopping! We're going to get some things to cook dinner
-with. However, you like to spend money and always buy too many things. So when 
+with. However, you like to spend money and always buy too many things. So when
 you have more than 3 items in your shopping cart the first item gets taken out.
 
 1. Create an array called `shoppingCart` that holds the following strings: 
@@ -12,17 +12,28 @@ you have more than 3 items in your shopping cart the first item gets taken out.
    - It should take one argument: a grocery item (string)
    - It should add the grocery item to `shoppingCart`. If the number of items is
      more than three remove the first one in the array.
-   - It should return a string "You bought <list-of-items>!", where 
-     <list-of-items>is a comma-separated list of items from the shopping cart 
-     array.
+   - It should return a string "You bought <list-of-items>!", where
+     <list-of-items>is a comma-separated list of items from the shopping cart array.
 
 3. Confirm that your code passes the unit tests.
 -----------------------------------------------------------------------------*/
 const shoppingCart = ['bananas', 'milk'];
 
 // ! Function to be tested
-function addToShoppingCart(/* parameters go here */) {
-  // TODO complete this function
+function addToShoppingCart(items) {
+  shoppingCart.push(items);
+  while (shoppingCart.length > 3) {
+<<<<<<< HEAD
+    //shoppingCart.shift();
+    shoppingCart.reverse(); //I reverse my array to keep last tree items when I delete items in my array
+    shoppingCart.splice(3); //this more efficient than shift()
+    shoppingCart.reverse(); //After I delete the item more than tree I change back to regular order
+=======
+    shoppingCart.shift();
+>>>>>>> 982eba8af4398964f1e93897a5b62c03cd752b6c
+  }
+  const newCart = shoppingCart.join(', ');
+  return `You bought ${newCart}!`;
 }
 
 // ! Test functions (plain vanilla JavaScript)
