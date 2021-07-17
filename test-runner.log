@@ -95,3 +95,67 @@ In C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33
   testRegex:  - 0 matches
 Pattern: C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\1-JavaScript\Week3\unit-tests\ex2-dogYears.test.js - 0 matches
 )
+2021-07-16 01:28:39 info: ------------------------------------------------------
+2021-07-16 01:28:39 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2021-07-16 01:28:39 info: ------------------------------------------------------
+2021-07-16 01:28:42 error: *** Unit Test Error Report ***
+
+No tests found, exiting with code 1
+Run with `--passWithNoTests` to exit with code 0
+In C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33
+  113 files checked.
+  testMatch: **/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x) - 26 matches
+  testPathIgnorePatterns: \\node_modules\\ - 113 matches
+  testRegex:  - 0 matches
+Pattern: C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\1-JavaScript\Week4\homework\ex1-doubleEvenNumbers.test.js - 0 matches
+)
+2021-07-16 01:28:43 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  12:7  warning  'evenFilter' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-07-16 01:29:06 info: ------------------------------------------------------
+2021-07-16 01:29:06 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2021-07-16 01:29:06 info: ------------------------------------------------------
+2021-07-16 01:29:07 error: *** Unit Test Error Report ***
+
+No tests found, exiting with code 1
+Run with `--passWithNoTests` to exit with code 0
+In C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33
+  113 files checked.
+  testMatch: **/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x) - 26 matches
+  testPathIgnorePatterns: \\node_modules\\ - 113 matches
+  testRegex:  - 0 matches
+Pattern: C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\1-JavaScript\Week4\homework\ex1-doubleEvenNumbers.test.js - 0 matches
+)
+2021-07-17 07:08:22 info: ------------------------------------------------------
+2021-07-17 07:08:22 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2021-07-17 07:08:22 info: ------------------------------------------------------
+2021-07-17 07:08:25 error: *** Unit Test Error Report ***
+
+No tests found, exiting with code 1
+Run with `--passWithNoTests` to exit with code 0
+In C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33
+  113 files checked.
+  testMatch: **/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x) - 26 matches
+  testPathIgnorePatterns: \\node_modules\\ - 113 matches
+  testRegex:  - 0 matches
+Pattern: C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\1-JavaScript\Week4\homework\ex1-doubleEvenNumbers.test.js - 0 matches
+)
+2021-07-17 01:07:15 info: ------------------------------------------------------
+2021-07-17 01:07:15 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2021-07-17 01:07:15 info: ------------------------------------------------------
+2021-07-17 01:07:18 error: *** Unit Test Error Report ***
+
+No tests found, exiting with code 1
+Run with `--passWithNoTests` to exit with code 0
+In C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33
+  113 files checked.
+  testMatch: **/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x) - 26 matches
+  testPathIgnorePatterns: \\node_modules\\ - 113 matches
+  testRegex:  - 0 matches
+Pattern: C:\Users\Gebruiker\Desktop\HYF-Curriculum\Homework-class33\1-JavaScript\Week4\homework\ex1-doubleEvenNumbers.test.js - 0 matches
+)
