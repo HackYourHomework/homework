@@ -22,7 +22,7 @@ function addToShoppingCart(shoppingCart,groceryItem) {
   if (newShoppingCart.length > 3) {
     newShoppingCart.shift();
   }
-  return 'you bought' + ' ' + newShoppingCart;
+  return `You bought ${newShoppingCart}`;
 }
 
 // ! Test functions (plain vanilla JavaScript)
