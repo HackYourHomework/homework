@@ -31,8 +31,8 @@ const cartForParty = {
 
 function calculateTotalPrice(total) {
   let totalValue = 0;
-  for (let grocery of Object.values(cartForParty)) {
-    totalValue += grocery;
+  for (const groceryPrice of Object.values(cartForParty)) {
+    totalValue += groceryPrice;
   }
   return `total:$ ${totalValue}`;
 }
