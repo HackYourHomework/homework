@@ -67,4 +67,4 @@ function test() {
 }
 
 test();
-console.log(shoppingCart);
+
