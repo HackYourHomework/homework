@@ -38,8 +38,8 @@ const jobTitles = ['Accountant', 'Doctor', 'Developer', 'Salesman', 'Manager'];
 
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
-function selectRandomly(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
+function selectRandomly(randomSelect) {
+  return randomSelect[Math.floor(Math.random() * arr.length)];
 }
 
 function tellFortune(numKids, partnerNames, locations, jobTitles) {
