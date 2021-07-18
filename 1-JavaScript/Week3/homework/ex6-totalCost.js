@@ -36,7 +36,7 @@ function calculateTotalPrice(total) {
   }
   return `total:$ ${totalValue}`;
 }
-console.log(calculateTotalPrice(cartForParty));
+
 
 function test1() {
   console.log();
