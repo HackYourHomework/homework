@@ -15,7 +15,7 @@ it pure. Do the following:
 ------------------------------------------------------------------------------*/
 // ! Function under test
 
-function addToShoppingCart(groceryItem, shoppingCart) {
+function addToShoppingCart(shoppingCart,groceryItem) {
   shoppingCart = ['bananas', 'milk'];
   const newShoppingCart = [...shoppingCart, groceryItem];
 
