@@ -522,3 +522,40 @@ Ran all test suites matching /\/Users\/hackyourfuture\/Documents\/HYF\/Homework-
 2021-07-19 09:22:46 info: --------------------------------------
 2021-07-19 09:22:53 info: All unit tests passed.
 2021-07-19 09:22:57 info: All steps were completed successfully
+2021-07-19 09:23:56 info: ------------------------------------------
+2021-07-19 09:23:56 info: >>> Running Unit Test `ex4-observable` <<<
+2021-07-19 09:23:56 info: ------------------------------------------
+2021-07-19 09:23:59 info: All unit tests passed.
+2021-07-19 09:24:00 info: All steps were completed successfully
+2021-07-19 09:24:35 info: ------------------------------------------
+2021-07-19 09:24:35 info: >>> Running Unit Test `ex4-observable` <<<
+2021-07-19 09:24:35 info: ------------------------------------------
+2021-07-19 09:24:38 info: All unit tests passed.
+2021-07-19 09:24:40 info: All steps were completed successfully
+2021-07-19 09:27:38 info: -------------------------------------------------
+2021-07-19 09:27:38 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2021-07-19 09:27:38 info: -------------------------------------------------
+2021-07-19 09:27:41 info: All unit tests passed.
+2021-07-19 09:27:41 error: *** ESLint Report ***
+
+ex3-lemonAllergy.test.js
+  46:5  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-07-19 09:28:52 info: -------------------------------------------------
+2021-07-19 09:28:52 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2021-07-19 09:28:52 info: -------------------------------------------------
+2021-07-19 09:28:54 info: All unit tests passed.
+2021-07-19 09:28:56 info: All steps were completed successfully
+2021-07-19 09:29:23 info: -------------------------------------------------
+2021-07-19 09:29:23 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2021-07-19 09:29:23 info: -------------------------------------------------
+2021-07-19 09:29:26 info: All unit tests passed.
+2021-07-19 09:29:28 info: All steps were completed successfully
+2021-07-19 09:30:09 info: -------------------------------------------------
+2021-07-19 09:30:09 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2021-07-19 09:30:09 info: -------------------------------------------------
+2021-07-19 09:30:11 info: All unit tests passed.
+2021-07-19 09:30:14 info: All steps were completed successfully

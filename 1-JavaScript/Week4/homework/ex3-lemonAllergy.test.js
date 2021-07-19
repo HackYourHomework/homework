@@ -43,16 +43,7 @@ describe('sanitizeFruitBasket', () => {
 
   test('should not modify the original `fruitBasket` array', () => {
     const originalFruitBasketContents = [...fruitBasket];
-    const expectedResult = [
-      'apple',
-      'lemon',
-      'grapefruit',
-      'lemon',
-      'banana',
-      'watermelon',
-      'lemon',
-    ];
-    expect(expectedResult).toEqual(originalFruitBasketContents);
+    expect(originalFruitBasketContents).toEqual(fruitBasket);
   });
 
   test('should return a new array that does not include the unwanted `lemon`', () => {
