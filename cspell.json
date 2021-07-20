@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "version": "0.1",
   "words": [
     "autofix",
@@ -34,3 +35,44 @@
     "Woww"
   ]
 }
+=======
+    "version": "0.1",
+    "words": [
+        "Akram",
+        "autofix",
+        "behaviour",
+        "camelcase",
+        "camelize",
+        "Celcius",
+        "clonedeep",
+        "Cryptr",
+        "endregion",
+        "eqeqeq",
+        "Grammatic",
+        "hackyourfuture",
+        "Hany",
+        "hplogo",
+        "htmlvalidate",
+        "isequal",
+        "networkidle",
+        "Philipp",
+        "pokemons",
+        "precommit",
+        "printf",
+        "rethrowing",
+        "significand",
+        "srcset",
+        "sysinfo",
+        "systeminformation",
+        "testalt",
+        "testx",
+        "thruthy",
+        "tinas",
+        "Traversy",
+        "Tupac",
+        "typeof",
+        "usingapis",
+        "Woww"
+    ]
+}
+>>>>>>> Stashed changes

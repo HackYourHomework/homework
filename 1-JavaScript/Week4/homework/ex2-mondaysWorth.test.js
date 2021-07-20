@@ -1,4 +1,8 @@
 'use strict';
+
+// eslint-disable-next-line no-unused-vars
+const { duration } = require('moment');
+
 /*
 - Complete the function names `computeEarnings`. It should take an array of
   tasks and an hourly rate as arguments and return a formatted Euro amount
@@ -29,9 +33,13 @@ const mondayTasks = [
 
 const hourlyRate = 25;
 
-function computeEarnings(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+function computeEarnings(tasks, rate) {
+  const newArr = tasks
+    .map((a) => (a.duration / 60) * rate)
+    .reduce((a, b) => a + b);
+  return `€${newArr.toFixed(2)}`;
 }
+console.log(computeEarnings(mondayTasks, hourlyRate));
 
 // ! Unit tests (using Jest)
 describe('computeEarnings', () => {
