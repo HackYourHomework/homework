@@ -28,9 +28,16 @@ const employeeRecords = [
 ];
 
 // ! Function under test
-function filterPrivateData(/* parameter(s) go here */) {
-  // TODO complete this function
+function filterPrivateData(recordWithoutPrivate) {
+  const privacyArr = [];
+  for (let i = 0; i < recordWithoutPrivate.length; i++) {
+    const { gender, salary, ...others } = privacyArr[i];
+    privacyArr.push(others);
+    console.log(gender, salary);
+  }
 }
+
+filterPrivateData(employeeRecords);
 
 // ! Test functions (plain vanilla JavaScript)
 function test1() {
