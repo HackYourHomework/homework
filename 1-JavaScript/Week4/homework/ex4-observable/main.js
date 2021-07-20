@@ -1,8 +1,8 @@
 const createObservable = require('./ex4-observable');
 
 // A candidate subscriber function
-function consoleUpperCase(message) {
-  console.log(message.toUpperCase());
+function consoleUpperCase(something) {
+  console.log(something.toUpperCase());
 }
 
 // Another candidate subscriber function
