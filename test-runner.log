@@ -559,3 +559,96 @@ ex3-lemonAllergy.test.js
 2021-07-19 09:30:09 info: -------------------------------------------------
 2021-07-19 09:30:11 info: All unit tests passed.
 2021-07-19 09:30:14 info: All steps were completed successfully
+2021-07-19 11:15:39 info: -------------------------------------------------
+2021-07-19 11:15:39 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2021-07-19 11:15:39 info: -------------------------------------------------
+2021-07-19 11:15:42 error: *** Unit Test Error Report ***
+
+Command failed: npx jest '/Users/hackyourfuture/Documents/HYF/Homework-class33/1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js' --colors
+ FAIL  1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js
+  ● Test suite failed to run
+
+    TypeError: totalEarnings.join is not a function
+
+      38 |     rate
+      39 |   }`;
+    > 40 |   return totalEarnings.join('0');
+         |                        ^
+      41 | }
+      42 | 
+      43 | console.log(computeEarnings(mondayTasks, hourlyRate));
+
+      at computeEarnings (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:40:24)
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:43:13)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.561 s
+Ran all test suites matching /\/Users\/hackyourfuture\/Documents\/HYF\/Homework-class33\/1-JavaScript\/Week4\/homework\/ex2-mondaysWorth.test.js/i.
+)
+2021-07-19 11:17:27 info: -------------------------------------------------
+2021-07-19 11:17:27 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2021-07-19 11:17:27 info: -------------------------------------------------
+2021-07-19 11:17:29 info: All unit tests passed.
+2021-07-19 11:17:31 info: All steps were completed successfully
+2021-07-19 11:24:45 info: --------------------------------------
+2021-07-19 11:24:45 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-07-19 11:24:45 info: --------------------------------------
+2021-07-19 11:24:48 info: All unit tests passed.
+2021-07-19 11:24:49 info: All steps were completed successfully
+2021-07-20 03:08:33 info: -------------------------------------------------
+2021-07-20 03:08:33 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2021-07-20 03:08:33 info: -------------------------------------------------
+2021-07-20 03:08:39 error: *** Unit Test Error Report ***
+
+Command failed: npx jest '/Users/hackyourfuture/Documents/HYF/Homework-class33/1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js' --colors
+ FAIL  1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js
+  ● Test suite failed to run
+
+    TypeError: totalCost.toFixed is not a function
+
+      38 |     rate
+      39 |   }`;
+    > 40 |   return totalCost.toFixed(2);
+         |                    ^
+      41 | }
+      42 | 
+      43 | console.log(computeEarnings(mondayTasks, hourlyRate));
+
+      at computeEarnings (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:40:20)
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:43:13)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        3.409 s
+Ran all test suites matching /\/Users\/hackyourfuture\/Documents\/HYF\/Homework-class33\/1-JavaScript\/Week4\/homework\/ex2-mondaysWorth.test.js/i.
+)
+2021-07-20 03:09:21 info: -------------------------------------------------
+2021-07-20 03:09:21 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2021-07-20 03:09:21 info: -------------------------------------------------
+2021-07-20 03:09:25 error: *** Unit Test Error Report ***
+
+  console.log
+    NaN
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:43:9)
+
+)
+2021-07-20 03:43:58 info: -------------------------------------------------
+2021-07-20 03:43:58 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2021-07-20 03:43:58 info: -------------------------------------------------
+2021-07-20 03:44:03 error: *** Unit Test Error Report ***
+
+  console.log
+    €187.500
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:42:9)
+
+)
+2021-07-20 03:44:27 info: -------------------------------------------------
+2021-07-20 03:44:27 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2021-07-20 03:44:27 info: -------------------------------------------------
+2021-07-20 03:44:30 info: All unit tests passed.
+2021-07-20 03:44:32 info: All steps were completed successfully
