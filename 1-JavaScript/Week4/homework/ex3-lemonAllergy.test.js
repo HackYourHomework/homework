@@ -1,4 +1,7 @@
 'use strict';
+
+// const { assign } = require('comment-json');
+
 /*
 Your mom bought you a basket of fruit, because you're doing so well in
 HackYourFuture. How sweet of her!
@@ -24,26 +27,28 @@ const fruitBasket = [
 ];
 
 // ! Function under test
-function sanitizeFruitBasket(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+function sanitizeFruitBasket(allFruits, unwantedFruit) {
+  return allFruits.filter(
+    (sanitizedFruits) => sanitizedFruits !== unwantedFruit
+  );
 }
 
 // ! Unit tests (using Jest)
 describe('sanitizeFruitBasket', () => {
   test('should take two parameters', () => {
-    // TODO replace next line with your code
-    expect(false).toBe(true);
+    const actual = sanitizeFruitBasket.length;
+    const expected = 2;
+    expect(actual).toBe(expected);
   });
 
   test('should not modify the original `fruitBasket` array', () => {
-    // Save the original contents of the fruit basket
     const originalFruitBasketContents = [...fruitBasket];
-    // TODO replace next line with your code
-    expect(false).toBe(true);
+    expect(originalFruitBasketContents).toEqual(fruitBasket);
   });
 
   test('should return a new array that does not include the unwanted `lemon`', () => {
-    // TODO replace next line with your code
-    expect(false).toBe(true);
+    const actualResult = sanitizeFruitBasket(fruitBasket, 'lemon');
+    const expectedResult = ['apple', 'grapefruit', 'banana', 'watermelon'];
+    expect(expectedResult).toEqual(actualResult);
   });
 });
