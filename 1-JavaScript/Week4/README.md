@@ -491,7 +491,7 @@ Let's run the exercise using our convenience command `npm run it`:
 ```console
 ❯ npm run it
 
-> javascript@1.0.0 it C:\Users\jimcr\dev\hackyourfuture\homework
+> javascript@1.0.0 it C:\Users\mcr\dev\hackyourfuture\homework
 > node ./test-runner/run-it
 
 ? Rerun last test (1-Javascript, Week4, ex5-wallet)? No

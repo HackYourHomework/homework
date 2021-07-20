@@ -13,12 +13,16 @@ Complete the `createObservable()` function as follows:
 
 function createObservable() {
   const subscribers = [];
+
   return {
     subscribe: function (subscriber) {
-      // TODO complete this function
+      return subscribers.push(subscriber);
     },
+
     notify: function (message) {
-      // TODO complete this function
+      subscribers.forEach((item) => {
+        item(message);
+      });
     },
   };
 }
