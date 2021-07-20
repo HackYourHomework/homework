@@ -1,0 +1,81 @@
+{
+  "node": "v16.4.2",
+  "system": {
+    "manufacturer": "Apple Inc.",
+    "model": "MacBookPro16,2"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i5-1038NG7",
+    "speed": 2
+  },
+  "memory": "16 GB",
+  "osInfo": {
+    "platform": "darwin",
+    "distro": "macOS",
+    "release": "11.4"
+  },
+  "vscodeInfo": {
+    "version": "1.58.0",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "burkeholland.simple-react-snippets",
+      "CoenraadS.bracket-pair-colorizer",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "divola.ayu-dark-lighter",
+      "dsznajder.es7-react-js-snippets",
+      "dzannotti.vscode-babel-coloring",
+      "eamodio.gitlens",
+      "Equinusocio.vsc-community-material-theme",
+      "Equinusocio.vsc-material-theme",
+      "equinusocio.vsc-material-theme-icons",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "formulahendry.auto-close-tag",
+      "formulahendry.auto-rename-tag",
+      "hdg.live-html-previewer",
+      "ms-vscode.cpptools",
+      "okon3.ayu-miragemod",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "TaodongWu.ejs-snippets",
+      "techer.open-in-browser",
+      "vscode-icons-team.vscode-icons",
+      "WallabyJs.quokka-vscode",
+      "walter-ribeiro.full-react-snippets",
+      "xabikos.JavaScriptSnippets"
+    ],
+    "userSettings": {
+      "[html]": {},
+      "files.autoSave": "afterDelay",
+      "editor.formatOnSave": true,
+      "editor.fontSize": 15,
+      "editor.wordWrap": "on",
+      "files.autoSaveDelay": 500,
+      "liveServer.settings.donotVerifyTags": true,
+      "liveServer.settings.donotShowInfoMsg": true,
+      "editor.minimap.enabled": false,
+      "breadcrumbs.enabled": true,
+      "editor.renderWhitespace": "none",
+      "editor.renderControlCharacters": false,
+      "editor.detectIndentation": false,
+      "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+      },
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "workbench.iconTheme": "vscode-icons",
+      "vsicons.dontShowNewVersionMessage": true,
+      "kite.showWelcomeNotificationOnStartup": false,
+      "workbench.startupEditor": "newUntitledFile",
+      "workbench.editor.untitled.hint": "hidden",
+      "security.workspace.trust.untrustedFiles": "open"
+    }
+  }
+}
