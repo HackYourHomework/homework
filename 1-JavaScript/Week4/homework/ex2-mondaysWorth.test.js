@@ -26,21 +26,24 @@ const mondayTasks = [
     duration: 60,
   },
 ];
-
 const hourlyRate = 25;
 
-function computeEarnings(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+// first test did not pass. I do not why but the code is correct as i test it in console.
+function computeEarnings(tasks, rate) {
+  const calculateRate = tasks.map((monday) => (monday.duration / 60) * rate);
+  const total = calculateRate.reduce(
+    (totalEarn, rates) => totalEarn + rates,
+    0
+  );
+  return `€${total.toFixed(2)}`;
 }
 
-// ! Unit tests (using Jest)
 describe('computeEarnings', () => {
   test('should take two parameters', () => {
     // The `.length` property indicates the number of parameters expected by
     // the function.
     expect(computeEarnings).toHaveLength(2);
   });
-
   test('should compute the earnings as a formatted Euro amount', () => {
     const result = computeEarnings(mondayTasks, hourlyRate);
     const expected = '€187.50';
